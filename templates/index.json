@@ -13,7 +13,7 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
+            "button_label_1": "Shop now",
             "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": true,
             "button_label_2": "",
@@ -37,6 +37,22 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
+      }
+    },
+    "image_banner_personalized": {
+      "type": "image-banner-personalized",
+      "settings": {
+        "title": "Personalized"
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "featured_collection": {
@@ -70,6 +86,8 @@
   },
   "order": [
     "image_banner",
+    "image_banner_personalized",
+    "form",
     "featured_collection"
   ]
 }
